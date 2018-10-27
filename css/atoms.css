@@ -1,0 +1,109 @@
+  img {
+    max-width: 100%;
+    height: auto; }
+  
+  body {
+    margin: 0px;
+    padding: 0px; }
+  
+  ul {
+    margin: 0px;
+    padding: 0; }
+    ul li {
+      margin: 0px;
+      padding: 0; }
+  
+  /* typography */
+  * {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+    color: #252525;
+    box-sizing: border-box; }
+  
+  h1 {
+    font-size: 61px;
+    font-weight: 900;
+    font-family: "Lato", sans-serif;
+    color: #252525; }
+  
+  h2 {
+    font-size: 41px;
+    font-weight: 800;
+    line-height: 1.17;
+    font-family: "Lato", sans-serif;
+    color: #252525; }
+  
+  h3 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.25;
+    font-family: "Lato", sans-serif;
+    color: #252525; }
+  
+  h4 {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: #252525;
+    line-height: 1.31; }
+  
+  h5 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    color: #252525;
+    color: #282f34; }
+  
+  h6 {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    color: #252525;
+    line-height: 1.41; }
+  
+  p {
+    font-size: 17px;
+    font-family: "Lato", sans-serif;
+    color: #252525;
+    line-height: 1.65;
+    font-weight: 400; }
+  
+  /* Buttons style */
+.atom-btn-lg-black, .atom-btn-md-black, .atom-btn-lg-yello, .atom-btn-md-yello, .atom-btn-border-grey {
+    display: block;
+    flex-wrap: wrap;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    border: none;
+    font-weight: 900;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none; }
+  
+.atom-btn-lg-black {
+    color: #fff;
+    background: #000;
+    font-size: 23px; }
+  
+.atom-btn-md-black {
+    color: #fff;
+    background: #000;
+    font-size: 18px; }
+  
+.atom-btn-lg-yello {
+    color: #000000;
+    background: #f9c72c;
+    font-size: 23px;
+    border: 1px solid #e2b52a; }
+  
+.atom-btn-md-yello {
+    color: #000000;
+    background: #f9c72c;
+    font-size: 18px;
+    border: 1px solid #e2b52a; }
+  
+.atom-btn-border-grey {
+    color: #ffffff;
+    font-size: 50px;
+    border: 1px solid #989898; }

@@ -1,0 +1,529 @@
+.molecule-site_logo {
+    display: inline-block;
+    margin: 0 100px 0 0; }
+.molecule-container-header {
+    padding: 0 30px;
+    max-width: 1720px;
+    margin: 0px auto; }
+.molecule-header-nav-main {
+    display: inline-block;
+    vertical-align: bottom; }  
+.molecule-header-nav-main li {
+    display: inline-block;
+    list-style: none; }
+.molecule-header-nav-main a {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 300;
+    margin: 0 25px; }
+.molecule-header-nav-main a:hover,
+.molecule-header-nav-main li.active a {
+    color: #f7db77;
+    text-decoration: underline; }
+
+.molecule-rb {
+    position: absolute;
+    right: 15px;
+    top: 14px;
+    background: none;
+    border: none;
+    padding: 0;
+    display: none;
+    width: 22px;
+    height: 22px;
+    cursor: pointer; }
+
+.molecule-rb span {
+    width: 20px;
+    background: #fff;
+    height: 2px;
+    display: inline-block;
+    margin: 2px 0px;
+    position: relative;
+    transition: 0.3s all ease-in-out; }
+
+.molecule-rb span::before {
+    width: 100%;
+    background: inherit;
+    height: 2px;
+    content: "";
+    display: block;
+    margin: 0px;
+    position: absolute;
+    left: 0;
+    top: -7px;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out; }
+
+.molecule-rb span::after {
+    width: 100%;
+    background: inherit;
+    height: 2px;
+    content: "";
+    display: block;
+    margin: 0px;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out; }
+.molecule-submission-table h4 {
+    text-align: center;
+    margin: 0 0 20px 0; }
+    
+.molecule-submission-table-overflow table {
+    max-width: 418px; }
+
+table {
+    width: 100%;
+    margin: 0px auto;
+    border-collapse: collapse; }
+table thead tr {
+    background: #2c2735; }
+table thead tr th {
+    color: #fff;
+    padding: 0 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 38px; }
+table tbody tr td {
+    font-size: 14px;
+    font-weight: 400;
+    height: 40px;
+    border: 1px solid #bfbdc0;
+    background: #fff;
+    padding: 0 10px;
+    text-align: center; }
+table tbody tr td a {
+    color: #ec791c;
+    text-decoration: none; }
+table tbody tr td a:hover {
+    color: #da5c00; }
+    
+.molecule-get-started {
+    margin: 50px 0; }
+    
+.molecule-get-started h4 {
+    margin: 0 0 20px 100px; }
+    
+.molecule-get-started-list {
+    margin: 10px 0 0; }
+    
+.molecule-started-list-number {
+    float: left;
+    font-size: 57px;
+    color: #949494;
+    font-weight: 800;
+    line-height: 57px;
+    font-family: "Poppins", sans-serif;
+    margin: 0 30px 0 0;
+    min-width: 70px; }
+    
+.molecule-started-list-content {
+    overflow: hidden; }
+    
+.molecule-started-list-content h5 {
+    font-weight: 400;
+    margin: 0 0 5px; }
+
+.molecule-started-list-content p {
+    line-height: 28px;
+    font-size: 16px; }
+    
+    /* content area css */
+    
+    
+
+    
+.molecule-token-container {
+    float: right;
+    text-align: right; }
+
+.molecule-welcome-user-name {
+    font-size: 30px;
+    font-weight: 800;
+    color: #000000; }
+.molecule-welcome-user-name span {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit; }
+
+.molecule-your-token {
+    font-size: 41px;
+    font-weight: 900;
+    color: #000000;
+    padding: 10px 25px 0 0; }
+.molecule-your-token .molecule-tken-number {
+    color: #ffae00;
+    font-size: inherit;
+    font-weight: inherit; }
+
+
+.molecule-create-job {
+    background: #f9c72c;
+    padding: 30px;
+    text-align: center;
+    min-height: 590px;
+    position: relative;
+    margin: 0px 0 0;
+    height: 100%;
+    width: 100%; }
+.molecule-create-job figure {
+    margin: 40px 0; }
+.molecule-create-job h1 {
+    line-height: 1; }
+.molecule-create-job h4 {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0 0 35px 0; }
+.molecule-create-job p {
+    font-size: 19px;
+    text-align: left;
+    line-height: 30px;
+    margin: 0 0 40px 0; }
+.molecule-create-job .atom-btn-lg-black {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    right: 30px; }
+
+.molecule-grid-row {
+    clear: both;
+    margin: 0 -15px; }
+
+.molecule-grid-row .molecule-equal-height {
+    display: flex; }
+
+.molecule-col-3 {
+    padding: 0px 15px 20px 0px;
+    float: left;
+    width: 33.3%;
+    display: flex; }
+
+.molecule-my-title {
+    float: left;
+    margin: 50px 0 50px 0; }
+
+.molecule-jobs-listing {
+    margin: 0px 0 0;
+    height: 100%;
+    background: #eaeaea;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100px; }
+.molecule-jobs-listing h4 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 0 34px 0; }
+.molecule-jobs-listing figure img {
+    width: 100%;
+    height: auto; }
+
+.molecule-job-listing-inner {
+    padding: 5px 17px 0px; }
+.molecule-job-listing-inner p {
+    font-size: 18px;
+    line-height: 24px; }
+.molecule-job-listing-inner p strong {
+    font-weight: 800; }
+.molecule-job-listing-inner .molecule-btn-group {
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 13px;
+    right: 13px; }
+.molecule-job-listing-inner .molecule-btn-group .atom-btn-md-black,
+.molecule-job-listing-inner .molecule-btn-group .atom-btn-md-yello {
+    margin: 0 5px;
+    width: 50%; }
+
+
+.molecule-footer-form {
+    margin: 0px auto;
+    max-width: 860px; }
+    
+.molecule-footer-form-title h2 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    padding: 100px 0 0px; }
+    
+.molecule-footer-form-title h2:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 116px;
+    height: 2px;
+    background: #c2c2c2;
+    margin: 0px auto;
+    top: 0; }
+    
+.molecule-footer-form-title h2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 8px;
+    width: 116px;
+    height: 2px;
+    background: #c2c2c2;
+    margin: 0px auto; }
+    
+.molecule-footer-form-inner {
+    margin: 50px 0 0; }
+    
+.molecule-form-half {
+    display: flex;
+    margin: 0 -20px; }
+    
+.molecule-form-half .molecule-form-group {
+    padding: 0 20px; }
+    
+.molecule-form-group {
+    width: 100%;
+    margin: 0 0 30px 0;
+    position: relative; }
+    
+.molecule-form-group label {
+    position: absolute;
+    bottom: 7px;
+    margin: 0;
+    font-size: 30px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    text-align: center;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    color: #fff; }
+    
+.molecule-form-group.filled-focus label,
+.molecule-form-group.filled label {
+    bottom: 100%;
+    font-size: 14px; }
+    
+.molecule-form-half .molecule-form-group label {
+    left: 20px; }
+    
+.molecule-form-group input {
+    width: 100%;
+    background: none;
+    border-width: 0 0 2px 0;
+    border-color: rgba(255, 225, 255, 0.5);
+    height: 50px;
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    z-index: 9;
+    text-align: center; }
+    
+.molecule-form-group textarea {
+    width: 100%;
+    background: none;
+    border-width: 0 0 2px 0;
+    border-color: rgba(255, 225, 255, 0.5);
+    height: 130px;
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    z-index: 9;
+    text-align: center; }
+    
+.molecule-form-group .molecule-submit-btn {
+    text-align: right;
+    margin: 0px; }
+    
+.molecule-form-group input[type="submit"] {
+    width: auto;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0 25px;
+    text-transform: uppercase;
+    letter-spacing: -1.5px;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 26px;
+    height: 44px; }
+    
+.molecule-form-group input[type="submit"]:hover,
+.molecule-form-group input[type="submit"]:focus {
+    background: #cc8c0c; }
+
+@media screen and (max-width: 1600px) {
+.molecule-container-header {
+    max-width: 1170px;
+    padding: 0; }
+
+.molecule-site_logo {
+    margin: 0 50px 0 0;
+    max-width: 240px; }
+
+.molecule-header-nav-main a {
+    margin: 0 10px;
+    font-size: 22px; }
+
+
+
+
+
+.molecule-create-job h1 {
+    font-size: 55px; }
+
+.molecule-create-job {
+    padding: 30px 20px; }
+.molecule-create-job .molecule-btn-lg-black {
+    left: 20px;
+    right: 20px; }
+
+.molecule-job-listing-inner .molecule-btn-group .atom-btn-md-black,
+.molecule-job-listing-inner .molecule-btn-group .atom-btn-md-yello {
+    font-size: 16px; } }
+@media screen and (max-width: 1300px) {
+.molecule-jobs-listing {
+    padding-bottom: 160px; }
+
+.molecule-job-listing-inner .molecule-btn-group {
+    display: block; }
+
+.molecule-job-listing-inner .molecule-btn-group .atom-btn-md-black,
+.molecule-job-listing-inner .molecule-btn-group .atom-btn-md-yello {
+    width: 100%;
+    margin: 10px 0 0px 0; } }
+@media screen and (max-width: 1200px) {
+h2,
+.molecule-your-token {
+    font-size: 34px; }
+
+h5 {
+    font-size: 18px; }
+
+
+
+.molecule-grid-row {
+    margin: 0 -10px; }
+
+.molecule-col-3 {
+    padding: 0 10px;
+    padding-bottom:20px; 
+}
+
+.molecule-create-job h1 {
+    font-size: 45px; }
+
+h4,
+.molecule-create-job h4,
+.molecule-welcome-user-name,
+.molecule-jobs-listing h4,
+.molecule-footer-form-title h2,
+.molecule-form-group input,
+.molecule-form-group label,
+.molecule-form-group textarea {
+    font-size: 22px; }
+
+.molecule-job-listing-inner p,
+.molecule-create-job p {
+    font-size: 17px; }
+
+.molecule-create-job h1 {
+    font-size: 39px; } }
+@media screen and (max-width: 991px) {
+.molecule-rb {
+    display: block;
+    right: 20px;
+    top: 40px; }
+
+.molecule-header-nav-main .molecule-main-nav {
+    float: none;
+    display: none;
+    padding: 0 0 0px 0;
+    /* margin: 0px; */
+    width: 100%;
+    clear: both;
+    margin: 12px 0 20px; }
+
+.molecule-site_logo {
+    margin: 0 20px 0 0;
+    max-width: 170px; }
+
+
+
+.molecule-header-nav-main {
+    display: block;
+    vertical-align: bottom; }
+
+.molecule-header-nav-main .molecule-main-nav {
+    margin: 20px 0 3px;
+    border-top: 1px solid #333;
+    padding: 15px 0 0; }
+
+.molecule-header-nav-main li {
+    display: block; }
+
+.molecule-header-nav-main a {
+    margin: 5px 0;
+    font-size: 22px;
+    display: inline-block; }
+
+
+
+.molecule-grid-row .molecule-equal-height {
+    display: block; }
+
+.molecule-col-3 {
+    display: block;
+    float: none;
+    width: auto; }
+
+.molecule-create-job {
+    margin: 20px 0 0px; }
+
+.molecule-jobs-listing {
+    margin: 20px 0 0px;
+    padding: 0 0 30px 0; }
+
+.molecule-job-listing-inner .molecule-btn-group {
+    position: static;
+    margin: 30px 0 0 0; }
+
+.molecule-token-container {
+    float: none; }
+
+.molecule-my-title {
+    float: none;
+    margin: 30px 0 20px 0; } }
+@media screen and (max-width: 767px) {
+
+.molecule-footer-form {
+    padding: 0 20px; }
+
+.molecule-footer-form-inner {
+    margin: 50px 0px 0; }
+
+.molecule-submission-table-overflow table {
+    max-width: inherit; }
+
+.molecule-form-half .form-group {
+    padding: 0; }
+
+.molecule-form-half {
+    margin: 0;
+    display: block; }
+
+.molecule-form-group .molecule-submit-btn {
+    text-align: center;
+    margin: 0px; }
+
+.molecule-col-3 {
+    padding: 0; }
+
+.molecule-your-token {
+    padding: 10px 0px 0 0; }
+
+.molecule-header-nav-main a {
+    font-size: 20px; } }
+
